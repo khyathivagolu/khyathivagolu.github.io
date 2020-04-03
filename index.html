@@ -4,68 +4,98 @@
 <head>
 <title>Khyathi lol;
 </title>
+<link rel="stylesheet" href="style.css">
 <script type="text/javascript" src="contents.js"></script>
-<noscript> JS is not supported</noscript>
-<style>
-a,p,h1,h2,ul,li {text-align:center;}
-body {background-image:url('m.png');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;}
-      img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
+<noscript>JS is not supported</noscript>
 </head>
 <body>
-  <img src="profile.jpg" align="center" width="200" height="200">
-        <h1><pre>  Khyathi Vagolu</pre></h1>
-          <ul>
-            <p> SaRaNi MuKoE. PLUS ULTRA!!!</p>
-          </ul>
-<p><i>Connect with me:</i>
-  <table 
-    align=center
-    border:auto
-    cellpadding="5">
-     <tr>
-      <td>
-        <a href="https://www.facebook.com/profile.php?id=100010474903803">
-        <img src="fb.png" style="width:40px;height:40px;border:0">
-        </a>
-      </td>
-      <td>
-        <a href="https://www.instagram.com/khyathi_0408/">
-        <img src="ig.png" style="width:42px;height:42px;border:0">
-        </a>
-      </td>
-      <td>
-        <a href="https://twitter.com/Khyathi53959557">
-        <img src="twt.png" style="width:40px;height:40px;border:0">
-        </a>
-      </td>
-      <td>
-        <a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome">
-        <img src="snap.png" style="width:40px;height:40px;border:0">
-        </a>
-      </td>
-    </tr>
-  </table>
-</p>
-<button align=center color="blue" onclick="alert('Not updated yet')"> Achievements </button>
-<p>
-Hey y'all. I am Khyathi, an 18 y/o, currently pursuing the first year of my BTech in Computer Science Engineeering at IIT Kanpur.<br>
-This is my first website ever and I am making this as part of my ACA project.  </p>
-<hr color="black">
-<h2>Resources for a freshie at IIT Kanpur</h2>
-<p>Campus Map:<br>
-<a href="http://iitk.ac.in/new/campus-maps">
-  <img src="mapp.png" style="width:40px;height:40px;border:0">
-</a>
-</p>
+  <nav>
+    <ul class="navbar" id="dropdownIcon">
+      <div class="left">
+       <li><a href="#home">HOME</a></li>
+       <li class="dropdown"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li> <!--stays on the same page. undefined destination-->
+      </div>
+      <div class="right">
+        <li><a href="#courses">COURSES</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </div>
+    </ul>
+  </nav>
+  <div class="container" id="sec1">
+    <div class="row">
+      <div class="col1">
+       <td>
+        <br>
+        <div class="intro">
+          <p>
+            <b>
+              Hey there!
+              <br>
+              I am Khyathi, an 18 y/o, currently pursuing the first year of my BTech in Computer Science Engineeering at IIT Kanpur.<br>
+              This is my first website and I am making this as part of my ACA project.
+              </p>
+            </b>
 
+          </div>
+          <div class="connectTable">
+            <b><i>Connect with me:</i></b>
+            <table>
+            <tr>
+            <td>
+              <a href="https://www.facebook.com/profile.php?id=100010474903803" title="Facebook">
+              <img src="fb.png" style="width:40px;height:40px;border:0">
+              </a>
+            </td>
+            <td>
+              <a href="https://github.com/khyathivagolu" title="Github">
+              <img src="github.png" style="width:40px;height:40px;border:0">
+              </a>
+            </td>
+            <td>
+              <a href="https://www.instagram.com/khyathi_0408/" title="Instagram">
+              <img src="ig.png" style="width:42px;height:42px;border:0">
+              </a>
+            </td>
+            <td>
+              <a href="https://twitter.com/Khyathi53959557" title="Twitter">
+              <img src="twt.png" style="width:40px;height:40px;border:0">
+              </a>
+            </td>
+            <td>
+              <a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome" title="Snapchat">
+              <img src="snap.png" style="width:40px;height:40px;border:0">
+              </a>
+            </td>
+            </tr>
+            </table>
+          </div>
+
+           </td>
+           </div>
+           <div class="col2">
+            <td>
+           <div class="profile">
+            <img src="profile.jpg" width=150px height=150px>
+           </div>
+           <div class="name"><b>Khyathi Vagolu</b></div>
+          </td>
+        </tr>
+      </div>
+    </div>
+  </div>
+  <p>
+    <div class="achieveBox">
+    <button class="achieve" onclick="alert('Not updated yet')"> Achievements</button>
+    </div>
+  </p>
+
+  <footer class="foot">
+    <a>&#x24B8;</a>&nbsp;2020 Khyathi Vagolu <i>All Rights Reserved</i>
+    <p></p>
+  </footer>
 
 </body>
+
 </html>
